@@ -58,10 +58,10 @@ section {
   }
 .hero {
     height: 600px;
-    background-image: url("../images/hero-bg.jpg");
     background-size: cover;
+    background-image: url("../images/hero-bg.jpg");
     background-position: center;
-    position: relative
+    position: relative;
 }
 .hero-secondary {
     margin: 20px;
@@ -237,6 +237,9 @@ section h3 {
 }
 .contact-info a{
     color: #fce138;
+}
+.contact-form div{
+    text-align: center;
 }
 /*Reach Out Style Ends*/
 
