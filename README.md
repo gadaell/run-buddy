@@ -12,3 +12,5 @@ https://gadaell.github.io/run-buddy/
 
 ## Contribution
 Made with ❤️ by A'Darius (A'D) Ellis
+
+### ©️2019 Run Buddy, Inc 
