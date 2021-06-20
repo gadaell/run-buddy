@@ -35,7 +35,7 @@ header nav ul {
     list-style: none;
 }
 header nav ul li a {
-    margin: 0 30px;
+    padding: 10px 15px;
     font-weight: lighter;
     font-size: 1.55vw
 }
@@ -69,6 +69,7 @@ section {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    align-items: flex-start;
 }
 .hero-secondary {
     margin: 20px;
@@ -117,7 +118,7 @@ section h3 {
     margin: 3.5%;
     color: #333;
     font-size: 18px;
-    line-height: 1.3;
+    line-height: 1.2;
 }
 .hero-cta h2{
     font-style: italic;
@@ -136,7 +137,7 @@ section h3 {
     background: #fce138;
 }
 .section-title {
-    font-size: 55px;
+    font-size: 48px;
     color: #024e76;
     border-bottom: 3px solid;
     padding-bottom: 20px;
@@ -192,7 +193,7 @@ section h3 {
     justify-content: space-between;
   }
 
-
+   /*Trainer Section Begins*/
 .trainers {
     width: 100%;
     margin: 0 auto;
@@ -225,6 +226,7 @@ section h3 {
 }
 .trainer-bio p {
     font-size: 17px;
+   /*Trainer Section Ends*/
 
     /*Reach Out Style Begins*/
 }.contact{
@@ -283,5 +285,19 @@ section h3 {
 /*Reach Out Style Ends*/
 .flex-row {
     display: flex;
+}
+   /*Beginning of Media Queries*/
+
+/* Media Query for Smaller Destop Screen and Smaller*/
+@media screen and (max-width: 980px) {
+
+}
+/* MEDIA QUERY FOR TABLETS AND SMALLER */
+@media screen and (max-width: 768px) {
+  
+}
+/* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
+@media screen and (max-width: 575px) {
+ 
 }
 
